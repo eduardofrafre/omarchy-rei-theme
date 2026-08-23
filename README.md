@@ -93,3 +93,5 @@ monospace character cells. Point fastfetch's logo at it in
 If your terminal or font metrics stretch it a bit differently than shown
 here, resize the source image's height up or down a few percent to
 compensate — the squash factor isn't universal across terminals/fonts.
+
+![Rei ascii logo in a btop-themed terminal](btop-screenshot.png)
