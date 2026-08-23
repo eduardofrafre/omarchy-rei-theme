@@ -1,6 +1,6 @@
 # Rei
 
-![Rei theme preview](preview.png)
+![Rei theme in use](screenshot.png)
 
 ## Inspiration
 
@@ -9,6 +9,14 @@ her signature light blue hair and eyes are the seed for this palette. The
 theme leans on a single muted blue (`#617bb9`) as the accent across the
 terminal, window borders, and UI, echoing her cold, quiet color scheme
 against a near-black background.
+
+<img src="preview.png" alt="Rei character cutout" width="300">
+
+This character cutout — extracted from the theme's wallpaper with a
+transparent background — doubles as the thumbnail Omarchy's theme switcher
+(`Super + Shift + Ctrl + Space`) shows for this theme, since it drops in as
+`preview.png` at the theme's root (Omarchy looks for that file automatically,
+no extra config needed).
 
 ## Install
 
@@ -61,3 +69,27 @@ o.window("^(code)$", { opacity = "0.90 0.85" })
 After editing either file, Hyprland picks up the change on save — run
 `hyprctl reload` to force it, and `hyprctl configerrors` to confirm there
 are no typos.
+
+## Using the character as a fastfetch logo
+
+<img src="ascii-logo.png" alt="Rei ascii-ready cutout" width="300">
+
+`ascii-logo.png` is the same character cutout, but with the black
+clothing/shadow areas also made transparent — leaving just the blue outline
+and highlights — and pre-squashed vertically (~11%) to counteract most
+terminals rendering images slightly taller than wide when mapped onto
+monospace character cells. Point fastfetch's logo at it in
+`~/.config/fastfetch/config.jsonc`:
+
+```jsonc
+{
+  "logo": {
+    "type": "sixel", // or "kitty" / "chafa" / "auto", depending on your terminal
+    "source": "~/.local/state/omarchy/current/theme/ascii-logo.png"
+  }
+}
+```
+
+If your terminal or font metrics stretch it a bit differently than shown
+here, resize the source image's height up or down a few percent to
+compensate — the squash factor isn't universal across terminals/fonts.
