@@ -21,7 +21,7 @@ no extra config needed).
 ## Install
 
 ```bash
-omarchy theme install https://github.com/dufrtss/rei-omarchy-theme
+omarchy theme install https://github.com/dufrtss/omarchy-rei-theme
 ```
 
 This gives you the color palette, icon theme, wallpaper, and a gradient
