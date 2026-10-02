@@ -21,7 +21,7 @@ no extra config needed).
 ## Install
 
 ```bash
-omarchy theme install https://github.com/dufrtss/omarchy-rei-theme
+omarchy theme install https://github.com/eduardofrafre/omarchy-rei-theme
 ```
 
 This gives you the color palette, icon theme, wallpaper, and a gradient
@@ -95,3 +95,13 @@ here, resize the source image's height up or down a few percent to
 compensate — the squash factor isn't universal across terminals/fonts.
 
 ![Rei ascii logo in a btop-themed terminal](btop-screenshot.png)
+
+## Support
+
+Rei is free and stays free. If it saved you time, you can [support it on PayPal](https://www.paypal.com/donate/?hosted_button_id=N2T3FKPS2Z7DQ).
+
+More of my work: [eduardofrafre.com](https://eduardofrafre.com), with developer tools at [tools.eduardofrafre.com](https://tools.eduardofrafre.com).
+
+## License
+
+[MIT](LICENSE)
